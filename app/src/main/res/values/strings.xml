@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Londrina</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Atividades</string>
+    <string name="londrina" translatable="false">Folha de Londrina</string>
+    <!--drawer-->
+    <string name="openDrawer">open</string>
+    <string name="closeDrawer">close</string>
+
+    <string-array name="listdrawer">
+        <item>Casa</item>
+        <item>Casa</item>
+        <item>Casa</item>
+        <item>Casa</item>
+        <item>Casa</item>
+        <item>Casa</item>
+        <item>Casa</item>
+        <item>Casa</item>
+    </string-array>
+
+</resources>

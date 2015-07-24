@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--icones do listView drawer-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/icon1"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon2"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon3"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon4"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon5"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon6"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon7"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon8"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon9"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <item android:id="@+id/icon10"
+        android:icon="@drawable/justica"
+        android:title="Sign Up" />
+    <!-- "file" submenu -->
+    <item android:title="sub_menu">
+        <menu>
+            <item android:id="@+id/icon11"
+                android:title="Sinp_Up" />
+            <item android:id="@+id/icon12"
+                android:title="Sign_Up" />
+        </menu>
+    </item>
+</menu>

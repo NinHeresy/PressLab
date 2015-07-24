@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!--configuracao do drewer com a toolbar-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+    <!-- Customizando a cor do titulo da toolbar. -->
+    <style name="toolbarstyle" parent="Theme.AppCompat">
+        <item name="popupTheme">@color/primary_text</item>
+        <item name="android:actionMenuTextColor">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+    </style>
+
+    <!--icone da toolbar "Menu" chamado de Hamburguer-->
+    <style name="MyWidget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="navigationIcon">?homeAsUpIndicator</item>
+    </style>
+
+</resources>

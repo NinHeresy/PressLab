@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.presslab" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar" >
+
+        <!-- xml do splash -->
+        <activity
+            android:name=".noticias.splash.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- xml do toolbar -->
+        <activity
+            android:name=".noticias.classeprincipal.NoticiaActivity"
+            android:label="@string/londrina" >
+        </activity>
+        <!-- xml do navigation drawer -->
+    </application>
+
+</manifest>
